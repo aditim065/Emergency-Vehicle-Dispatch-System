@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dashboard">
+  <header><h2>User Dashboard</h2></header>
+
+  <div class="container">
+    <div class="card-box">
+      <h2 class="main-title">Request Emergency Vehicle</h2>
+      <div class="row">
+        <div class="w-45">
+          <label>Vehicle Type:</label>
+          <select id="vehicleType">
+            <option value="ambulance">Ambulance</option>
+            <option value="firetruck">Fire Truck</option>
+            <option value="police">Police Van</option>
+          </select>
+        </div>
+        <div class="w-45">
+          <label>Location:</label>
+          <select id="locationSelect"></select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="w-45"><button id="requestBtn">Request</button></div>
+        <div class="w-45"><button id="logoutBtn">Logout</button></div>
+      </div>
+      <div class="row">
+        <div class="w-100">
+          <label>Emergency Type (optional):</label>
+          <input id="emergencyType" placeholder="e.g., Cardiac arrest, Accident, Fire at apartment" />
+        </div>
+      </div>
+    </div>
+
+    <div class="card-box" id="info"></div>
+
+    <div class="map-box">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGEP4x06KLu3H6BOW6DLt4yCheZ6ujCR4&libraries=geometry"></script>
+  <script src="js/user.js"></script>
+</body>
+</html>

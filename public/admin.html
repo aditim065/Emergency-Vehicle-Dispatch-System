@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Admin Dashboard | Emergency Vehicle Dispatch System</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="dashboard">
+  <header>Admin Dashboard</header>
+
+  <div class="container">
+    <!-- Emergency Requests Section -->
+    <div class="card-box">
+      <h2 class="main-title">Emergency Requests</h2>
+      <div class="row">
+        <div class="w-45">
+          <label for="statusFilterReq">Filter by Status:</label>
+          <select id="statusFilterReq">
+            <option value="">All</option>
+            <option value="pending">Pending</option>
+            <option value="in-progress">In Progress</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+      </div>
+      <table id="requestsTable" style="margin-top: 15px;">
+        <thead>
+          <tr>
+            <th>Emergency Type</th>
+            <th>Driver Name</th>
+            <th>Assigned Status</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="card-box">
+      <h2 class="main-title">Driver Search</h2>
+      <div class="row">
+        <div class="w-45"><input type="text" id="searchDriver" placeholder="Search by Driver Name" /></div>
+        <div class="w-45"><button id="searchBtn">Search</button></div>
+      </div>
+    </div>
+
+    <div class="card-box">
+      <h2 class="main-title">Filter Drivers</h2>
+      <div class="row">
+        <div class="w-45">
+          <label for="locationFilter">Location:</label>
+          <select id="locationFilter">
+            <option value="">All</option>
+          </select>
+        </div>
+        <div class="w-45">
+          <label for="statusFilter">Status:</label>
+          <select id="statusFilter">
+            <option value="">All</option>
+            <option value="available">Available</option>
+            <option value="busy">Busy</option>
+          </select>
+        </div>
+        <div class="w-45">
+          <label for="vehicleFilter">Vehicle Type:</label>
+          <select id="vehicleFilter">
+            <option value="">All</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-box">
+      <h2 class="main-title">Driver List</h2>
+      <table id="driversTable">
+        <thead>
+          <tr>
+            <th>Driver Name</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th>Vehicle Type</th>
+            <th>Vehicle No</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div class="row" style="margin-top:12px;">
+        <div class="w-45"><button id="logoutBtn">Logout</button></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

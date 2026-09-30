@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Driver Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dashboard">
+  <header><h2>Driver Dashboard</h2></header>
+  <div class="container">
+    <div class="card-box">
+      <h2 class="main-title">Current Assignment</h2>
+      <div id="status" style="margin-top:10px;"></div>
+      <div class="row" style="margin-top:12px;">
+        <div class="w-45"><button id="logoutBtn">Logout</button></div>
+      </div>
+    </div>
+
+    <div class="map-box">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGEP4x06KLu3H6BOW6DLt4yCheZ6ujCR4&libraries=geometry"></script>
+  <script src="js/driver.js"></script>
+</body>
+</html>

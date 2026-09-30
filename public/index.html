@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Vehicle Dispatch System</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="icon-row">
+      <div class="icon ambulance">🚑</div>
+      <div class="icon fire">🔥</div>
+      <div class="icon police">🛡️</div>
+    </div>
+
+    <h1 class="main-title">Emergency Vehicle Dispatch System</h1>
+    <div class="signup-box">
+      <h2>Login / Signup</h2>
+      <form id="signupForm">
+        <div class="input-wrapper">
+          <input type="text" name="name" placeholder="Enter Your Name" required class="form-input" />
+        </div>
+
+        <div class="input-wrapper">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+            required
+            class="form-input"
+          />
+          <button type="button" id="togglePassword" class="toggle-password" aria-label="Toggle password visibility">
+            <i class="fas fa-eye-slash"></i>
+          </button>
+        </div>
+
+        <p id="passwordHint" class="hint"></p>
+        <p id="msg"></p>
+        <button type="submit">Continue</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

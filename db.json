@@ -1,0 +1,429 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "Admin@12"
+  },
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Ravi Kumar",
+      "password": "Ravi@123",
+      "vehicleNo": "Ambulance-01",
+      "vehicle": "Ambulance",
+      "status": "busy",
+      "locationId": "3",
+      "phone": "+91-9812345601"
+    },
+    {
+      "id": 2,
+      "name": "Anita Rao",
+      "password": "Anita@12",
+      "vehicleNo": "FireTruck-02",
+      "vehicle": "FireTruck",
+      "status": "available",
+      "locationId": "3",
+      "phone": "+91-9812345602"
+    },
+    {
+      "id": 3,
+      "name": "Suresh",
+      "password": "Suresh@1",
+      "vehicleNo": "Police-03",
+      "vehicle": "Police",
+      "status": "busy",
+      "locationId": "5",
+      "phone": "+91-9812345603"
+    },
+    {
+      "id": 4,
+      "name": "Rajesh",
+      "password": "Rajesh@1",
+      "vehicleNo": "Ambulance-04",
+      "vehicle": "Ambulance",
+      "status": "available",
+      "locationId": "1",
+      "phone": "+91-9812345604"
+    },
+    {
+      "id": 5,
+      "name": "Sunita",
+      "password": "Sunita@1",
+      "vehicleNo": "Police-05",
+      "vehicle": "Police",
+      "status": "available",
+      "locationId": "2",
+      "phone": "+91-9812345605"
+    },
+    {
+      "id": 6,
+      "name": "Mahesh",
+      "password": "Mahesh@1",
+      "vehicleNo": "FireTruck-06",
+      "vehicle": "FireTruck",
+      "status": "available",
+      "locationId": "3",
+      "phone": "+91-9812345606"
+    },
+    {
+      "id": 7,
+      "name": "Asha",
+      "password": "Asha@123",
+      "vehicleNo": "Ambulance-07",
+      "vehicle": "Ambulance",
+      "status": "available",
+      "locationId": "4",
+      "phone": "+91-9812345607"
+    },
+    {
+      "id": 8,
+      "name": "Rohan",
+      "password": "Rohan@12",
+      "vehicleNo": "Police-08",
+      "vehicle": "Police",
+      "status": "available",
+      "locationId": "5",
+      "phone": "+91-9812345608"
+    },
+    {
+      "id": 9,
+      "name": "Priya",
+      "password": "Priya@12",
+      "vehicleNo": "FireTruck-09",
+      "vehicle": "FireTruck",
+      "status": "available",
+      "locationId": "6",
+      "phone": "+91-9812345609"
+    },
+    {
+      "id": 10,
+      "name": "Vijay",
+      "password": "Vijay@12",
+      "vehicleNo": "Ambulance-10",
+      "vehicle": "Ambulance",
+      "status": "available",
+      "locationId": "7",
+      "phone": "+91-9812345610"
+    },
+    {
+      "id": 11,
+      "name": "Sneha",
+      "password": "Sneha@12",
+      "vehicleNo": "Police-11",
+      "vehicle": "Police",
+      "status": "available",
+      "locationId": "8",
+      "phone": "+91-9812345611"
+    },
+    {
+      "id": 12,
+      "name": "Deepak",
+      "password": "Deepak@1",
+      "vehicleNo": "FireTruck-12",
+      "vehicle": "FireTruck",
+      "status": "available",
+      "locationId": "9",
+      "phone": "+91-9812345612"
+    },
+    {
+      "id": 13,
+      "name": "Meena",
+      "password": "Meena@12",
+      "vehicleNo": "Ambulance-13",
+      "vehicle": "Ambulance",
+      "status": "available",
+      "locationId": "10",
+      "phone": "+91-9812345613"
+    },
+    {
+      "id": 14,
+      "name": "Kiran",
+      "password": "Kiran@12",
+      "vehicleNo": "Police-14",
+      "vehicle": "Police",
+      "status": "available",
+      "locationId": "11",
+      "phone": "+91-9812345614"
+    },
+    {
+      "id": 15,
+      "name": "Anil",
+      "password": "Anil@123",
+      "vehicleNo": "FireTruck-15",
+      "vehicle": "FireTruck",
+      "status": "available",
+      "locationId": "12",
+      "phone": "+91-9812345615"
+    },
+    {
+      "id": 16,
+      "name": "Lakshmi",
+      "password": "Laksh@12",
+      "vehicleNo": "Ambulance-16",
+      "vehicle": "Ambulance",
+      "status": "available",
+      "locationId": "13",
+      "phone": "+91-9812345616"
+    },
+    {
+      "id": 17,
+      "name": "Naveen",
+      "password": "Naveen@1",
+      "vehicleNo": "Police-17",
+      "vehicle": "Police",
+      "status": "available",
+      "locationId": "14",
+      "phone": "+91-9812345617"
+    },
+    {
+      "id": 18,
+      "name": "Ritika",
+      "password": "Ritika@1",
+      "vehicleNo": "FireTruck-18",
+      "vehicle": "FireTruck",
+      "status": "available",
+      "locationId": "15",
+      "phone": "+91-9812345618"
+    },
+    {
+      "id": 19,
+      "name": "Aman",
+      "password": "Aman@123",
+      "vehicleNo": "Ambulance-19",
+      "vehicle": "Ambulance",
+      "status": "available",
+      "locationId": "16",
+      "phone": "+91-9812345619"
+    },
+    {
+      "id": 20,
+      "name": "Pooja",
+      "password": "Pooja@12",
+      "vehicleNo": "Police-20",
+      "vehicle": "Police",
+      "status": "available",
+      "locationId": "17",
+      "phone": "+91-9812345620"
+    },
+    {
+      "id": 21,
+      "name": "Sandeep",
+      "password": "Sandee@1",
+      "vehicleNo": "FireTruck-21",
+      "vehicle": "FireTruck",
+      "status": "available",
+      "locationId": "18",
+      "phone": "+91-9812345621"
+    },
+    {
+      "id": 22,
+      "name": "Isha",
+      "password": "Isha@123",
+      "vehicleNo": "Ambulance-22",
+      "vehicle": "Ambulance",
+      "status": "available",
+      "locationId": "19",
+      "phone": "+91-9812345622"
+    },
+    {
+      "id": 23,
+      "name": "Tarun",
+      "password": "Tarun@12",
+      "vehicleNo": "Police-23",
+      "vehicle": "Police",
+      "status": "available",
+      "locationId": "20",
+      "phone": "+91-9812345623"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "username": "wertyuertyui",
+      "password": "GjdiW@m1"
+    },
+    {
+      "id": "u2",
+      "username": "dfgnm",
+      "password": "ajahAb@1"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Rajarajeshwari Nagar"
+    },
+    {
+      "id": 2,
+      "name": "Jalahalli"
+    },
+    {
+      "id": 3,
+      "name": "MG Road"
+    },
+    {
+      "id": 4,
+      "name": "Indiranagar"
+    },
+    {
+      "id": 5,
+      "name": "Whitefield"
+    },
+    {
+      "id": 6,
+      "name": "Electronic City"
+    },
+    {
+      "id": 7,
+      "name": "BTM Layout"
+    },
+    {
+      "id": 8,
+      "name": "Koramangala"
+    },
+    {
+      "id": 9,
+      "name": "Hebbal"
+    },
+    {
+      "id": 10,
+      "name": "Yelahanka"
+    },
+    {
+      "id": 11,
+      "name": "Marathahalli"
+    },
+    {
+      "id": 12,
+      "name": "Rajajinagar"
+    },
+    {
+      "id": 13,
+      "name": "Banashankari"
+    },
+    {
+      "id": 14,
+      "name": "Malleswaram"
+    },
+    {
+      "id": 15,
+      "name": "Jayanagar"
+    },
+    {
+      "id": 16,
+      "name": "Peenya"
+    },
+    {
+      "id": 17,
+      "name": "Ulsoor"
+    },
+    {
+      "id": 18,
+      "name": "Vijayanagar"
+    },
+    {
+      "id": 19,
+      "name": "Hosur Road"
+    },
+    {
+      "id": 20,
+      "name": "Bellandur"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "type": "police",
+      "driverId": 3,
+      "driverName": "Suresh",
+      "driverVehicleNumber": "Police-03",
+      "vehicleType": "Police",
+      "driverPhone": "+91-9812345603",
+      "driverLat": 12.994132,
+      "driverLng": 77.538694,
+      "locationId": "10",
+      "locationName": "Yelahanka",
+      "locationLat": 12.9721,
+      "locationLng": 77.5933,
+      "distanceKm": "4.57",
+      "status": "assigned",
+      "emergencyType": "",
+      "timestamp": "2025-11-28T18:52:43.643Z"
+    },
+    {
+      "id": 2,
+      "type": "police",
+      "driverId": 5,
+      "driverName": "Sunita",
+      "driverVehicleNumber": "Police-05",
+      "vehicleType": "Police",
+      "driverPhone": "+91-9812345605",
+      "driverLat": 12.9716,
+      "driverLng": 77.5946,
+      "locationId": "12",
+      "locationName": "Rajajinagar",
+      "locationLat": 12.9721,
+      "locationLng": 77.5933,
+      "distanceKm": "0.92",
+      "status": "completed",
+      "emergencyType": "",
+      "timestamp": "2025-11-28T18:55:50.114Z"
+    },
+    {
+      "id": 3,
+      "type": "ambulance",
+      "driverId": 1,
+      "driverName": "Ravi Kumar",
+      "driverVehicleNumber": "Ambulance-01",
+      "vehicleType": "Ambulance",
+      "driverPhone": "+91-9812345601",
+      "driverLat": 12.9716,
+      "driverLng": 77.5946,
+      "locationId": "7",
+      "locationName": "BTM Layout",
+      "locationLat": 12.9721,
+      "locationLng": 77.5933,
+      "distanceKm": "2.41",
+      "status": "completed",
+      "emergencyType": "",
+      "timestamp": "2025-11-28T18:57:38.915Z"
+    },
+    {
+      "id": 4,
+      "type": "ambulance",
+      "driverId": 4,
+      "driverName": "Rajesh",
+      "driverVehicleNumber": "Ambulance-04",
+      "vehicleType": "Ambulance",
+      "driverPhone": "+91-9812345604",
+      "driverLat": 12.9716,
+      "driverLng": 77.5946,
+      "locationId": "7",
+      "locationName": "BTM Layout",
+      "locationLat": 12.9721,
+      "locationLng": 77.5933,
+      "distanceKm": "3.52",
+      "status": "completed",
+      "emergencyType": "murder",
+      "timestamp": "2025-11-28T18:58:01.182Z"
+    },
+    {
+      "id": 5,
+      "type": "ambulance",
+      "driverId": 1,
+      "driverName": "Ravi Kumar",
+      "driverVehicleNumber": "Ambulance-01",
+      "vehicleType": "Ambulance",
+      "driverPhone": "+91-9812345601",
+      "driverLat": 12.9716,
+      "driverLng": 77.5946,
+      "locationId": "1",
+      "locationName": "Rajarajeshwari Nagar",
+      "locationLat": 12.9721,
+      "locationLng": 77.5933,
+      "distanceKm": "4.54",
+      "status": "assigned",
+      "emergencyType": "",
+      "timestamp": "2025-11-28T19:03:23.684Z"
+    }
+  ]
+}
